@@ -1,4 +1,9 @@
-﻿//for
+﻿
+
+
+
+
+//for
 //example 1
 //int sum = 0;
 
@@ -46,27 +51,36 @@
 
 // While
 
-var rnd = new Random();
-int Rndmguess = rnd.Next(1,100);
+//var rnd = new Random();
+//int Rndmguess = rnd.Next(1,100);
 
 int GuessCounter = 3;
 
 while (GuessCounter > 0)
-{
-    Console.WriteLine($"Your last guess chance :{GuessCounter}");
+//{
+//    Console.WriteLine($"Your last guess chance :{GuessCounter}");
 
-    Console.WriteLine("Please enter the your guess:");
-    int myguess =Convert.ToInt32(Console.ReadLine());
-    if(GuessCounter == 0)
-        Console.WriteLine("SORRY!!! You loosed");
-    else if (myguess <= Rndmguess)
-        Console.WriteLine("Please enter more bigger number");
-    else if (myguess >= Rndmguess)
-        Console.WriteLine("Please try more lower number ");
-    else if (myguess == Rndmguess)
-        Console.WriteLine("Congratulations you won");
-    
+//    Console.WriteLine("Please enter the your guess:");
+//    int myguess =Convert.ToInt32(Console.ReadLine());
+//    if(GuessCounter == 0)
+//        Console.WriteLine("SORRY!!! You loosed");
+//    else if (myguess <= Rndmguess)
+//        Console.WriteLine("Please enter more bigger number");
+//    else if (myguess >= Rndmguess)
+//        Console.WriteLine("Please try more lower number ");
+//    else if (myguess == Rndmguess)
+//        Console.WriteLine("Congratulations you won");
+   GuessCounter--;
 
-    GuessCounter--;
-}
+
+
+
+
+
+
+
+
+
+
+
 
