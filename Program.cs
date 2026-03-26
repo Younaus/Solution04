@@ -54,9 +54,9 @@
 //var rnd = new Random();
 //int Rndmguess = rnd.Next(1,100);
 
-int GuessCounter = 3;
+//int GuessCounter = 3;
 
-while (GuessCounter > 0)
+//while (GuessCounter > 0)
 //{
 //    Console.WriteLine($"Your last guess chance :{GuessCounter}");
 
@@ -70,13 +70,38 @@ while (GuessCounter > 0)
 //        Console.WriteLine("Please try more lower number ");
 //    else if (myguess == Rndmguess)
 //        Console.WriteLine("Congratulations you won");
-   GuessCounter--;
+//  GuessCounter--;
 
 
 
 
+//Console.WriteLine("adet:");
+//int adet = Convert.ToInt32(Console.ReadLine());
+
+//string[] urunler = new string[adet];
+
+//int i = 0;
+
+//do
+//{
+//    Console.WriteLine("ÜRÜN ADI:");
+//    urunler[i] = Console.ReadLine() ?? "";
+//    i++;
+//} while (adet!=i);
+//Console.WriteLine("ürünler listeleniyor...");
+
+//for(var a= 0; a < urunler.Length; a++)
+//{
+//    Console.WriteLine(urunler[a]);
 
 
+//}
+//string ad = "Ahmet";
+//for(int i=0;i<ad.Length;i++)
+//    Console.WriteLine(ad[i]);
+
+//foreach(var harf in ad)
+//    Console.WriteLine(harf);
 
 
 
